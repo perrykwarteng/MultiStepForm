@@ -192,7 +192,7 @@ form .form-content input {
   transition: border 0.3s;
 }
 .service:hover,
-.price {
+.price:hover {
   border: 2px solid #4a3aff;
 }
 .service input {
