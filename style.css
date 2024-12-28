@@ -164,6 +164,9 @@ form .form-content input {
   border: 1px solid #4a3aff;
   visibility: hidden;
 }
+.forms-section {
+  margin-bottom: 60px;
+}
 
 #servicesDetails,
 #priceDetails,
@@ -179,6 +182,7 @@ form .form-content input {
   grid-gap: 30px;
   cursor: pointer;
 }
+
 .service,
 .price {
   border: 2px solid #eff0f6;
@@ -234,6 +238,41 @@ form .form-content input {
 }
 
 #submit .btn-submit {
+  background: var(--primaryColor);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+  border-top: 1px solid #d9dbe9;
+}
+
+.footer img {
+  width: 260px;
+  margin-bottom: 20px;
+}
+
+.subscribe {
+  width: 500px;
+  height: 75px;
+  position: relative;
+  border: 0.5px solid #eff0f6;
+  border-radius: 60px;
+  box-shadow: 0px 0px 10px rgba(38, 35, 56, 0.1);
+}
+.subscribe input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background: none;
+  padding: 0px 20px;
+}
+.btn-footer {
+  position: absolute;
+  right: 12px;
+  top: 7px;
   background: var(--primaryColor);
 }
 
