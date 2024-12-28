@@ -13,7 +13,7 @@
           <img src="./images/Logo.png" />
         </div>
         <div>
-          <button class="btn">Clone</button>
+          <button class="btn">Clone Now</button>
         </div>
       </div>
       <div class="form-container">
@@ -26,9 +26,170 @@
               Feel free to add as much detail as needed.
             </p>
           </div>
-          <div class="forms"></div>
+          <div class="forms">
+            <div class="steps">Steps</div>
+            <!-- form One -->
+            <form>
+              <div id="contactDetails" class="step">
+                <div class="">
+                  <h2>Contact details</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisc.</p>
+                </div>
+                <div class="form-content">
+                  <div class="">
+                    <label for="name">Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      placeholder="eg; John Carter"
+                    />
+                    <img src="./images/name.png" />
+                  </div>
+
+                  <div class="">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="email address" />
+                    <img src="./images/email.png" />
+                  </div>
+
+                  <div class="">
+                    <label for="number">Phone Number</label>
+                    <input
+                      type="text"
+                      id="number"
+                      placeholder="eg; 023 7645 234"
+                    />
+                    <img src="./images/phone.png" />
+                  </div>
+
+                  <div class="">
+                    <label for="company">Company</label>
+                    <input
+                      type="text"
+                      id="company"
+                      placeholder="company name"
+                    />
+                    <img src="./images/company.png" />
+                  </div>
+                </div>
+              </div>
+              <div id="servicesDetails" class="step">
+                <div class="">
+                  <h2>Our services</h2>
+                  <p>Please select which service you are interested in.</p>
+                </div>
+
+                <div class="services">
+                  <div class="service">
+                    <input type="radio" />
+                    <div class="service-info">
+                      <div class="service-img">
+                        <img src="./images/development.png" alt="" />
+                      </div>
+                      <div class="">
+                        <p>Development</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="service">
+                    <input type="radio" />
+                    <div class="service-info">
+                      <div class="service-img">
+                        <img src="./images/webdesign.png" alt="" />
+                      </div>
+                      <div class="">
+                        <p>Web Design</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="service">
+                    <input type="radio" />
+                    <div class="service-info">
+                      <div class="service-img">
+                        <img src="./images/marketing.png" alt="" />
+                      </div>
+                      <div class="">
+                        <p>Marketing</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="service">
+                    <input type="radio" />
+                    <div class="service-info">
+                      <div class="service-img">
+                        <img src="./images/other.png" alt="" />
+                      </div>
+                      <div class="">
+                        <p>Other</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="priceDetails" class="step">
+                <div class="">
+                  <h2>What’s your project budget?</h2>
+                  <p>
+                    Please select the project budget range you have in mind.
+                  </p>
+                </div>
+
+                <div class="prices">
+                  <div class="price">
+                    <input type="radio" id="price" />
+                    <p id="price">Development</p>
+                  </div>
+
+                  <div class="price">
+                    <input type="radio" id="price" />
+                    <p id="price">Development</p>
+                  </div>
+
+                  <div class="price">
+                    <input type="radio" id="price" />
+                    <p id="price">Development</p>
+                  </div>
+
+                  <div class="price">
+                    <input type="radio" id="price" />
+                    <p id="price">Development</p>
+                  </div>
+                </div>
+              </div>
+              <div id="submit" class="step">
+                <img src="./images/complete.png" alt="" />
+                <h2>Submit your quote request</h2>
+                <p>
+                  Please review all the information you previously typed in the
+                  past steps, and if all is okay, submit your message to receive
+                  a project quote in 24 - 48 hours.
+                </p>
+                <div class="">
+                  <button class="btn btn-submit">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="form-btn">
+            <div class="">
+              <button id="previous" class="btn btnPrev">Previous step</button>
+            </div>
+            <div class="">
+              <button id="next" class="btn btn-next">Next step</button>
+            </div>
+          </div>
         </div>
       </div>
+
+      <div class="footer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium,
+          odit nisi quis voluptatum provident explicabo vitae consectetur
+          laboriosam architecto iusto?
+        </p>
+      </div>
     </section>
+
+    <script src="app.js"></script>
   </body>
 </html>
